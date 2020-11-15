@@ -20,8 +20,16 @@
       </v-list>
 
       <div class="bottom-right">
-          <v-btn dark color="indigo" v-on:click="addTodo">
-              <v-icon>ADD</v-icon>
+            <v-btn
+                class="mx-2"
+                fab
+                dark
+                large
+                color="cyan"
+                v-on:click="addTodo">
+            <v-icon dark>
+                mdi-pencil
+            </v-icon>
           </v-btn>
       </div>
   </div>

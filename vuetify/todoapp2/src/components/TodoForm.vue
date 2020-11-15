@@ -7,7 +7,11 @@
           <v-toolbar-title class="white--text" style="padding-left:20px">My Todo</v-toolbar-title>
       </v-toolbar>
       <v-text-field v-model="newTodo" placeholder="Input here..."></v-text-field>
-      <v-btn dark color="indigo" v-on:click="addTodo()" class="white--text">ADD</v-btn>
+      <v-btn fab dark color="indigo" v-on:click="addTodo()" class="white--text">
+        <v-icon dark>
+            mdi-plus
+        </v-icon>
+      </v-btn>
   </div>
 </template>
 
