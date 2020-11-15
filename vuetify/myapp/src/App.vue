@@ -7,12 +7,12 @@
         </v-list-tile-content>
         <v-list-tile-action>
           <v-btn flat icon v-on:click="deleteTodo(todo.id)">
-            <v-icon>delete</v-icon>
+            <v-icon style="font-size:5px">delete</v-icon>
           </v-btn>
         </v-list-tile-action>
       </v-list-tile>
       <v-divider v-bind:key="todo.id"></v-divider>
-    </template>> 
+    </template>
   </v-list>
 </template>
 
